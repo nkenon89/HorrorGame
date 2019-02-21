@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Escape the Room Game</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.8/css/mdb.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+    <body class="container main-background">
+
+        <!-- header -->
+        <div class="row">
+            <div id="header" class="col-12">
+                <!-- empty until page load -->
+            </div>
+        </div>
+
+        <!-- image box background needs to be 850x469px -->
+        <div class="row center border border-danger">
+            <img id="image" src="assets/images/lets-play-a-game.png" height="100%" width="100%">
+        </div>
+        <!-- timer -->
+        <div id="timer" class="hidden text-white row justify-content-center mt-4"><span id="time"> 5:00</span>
+        </div>
+        <!-- Content will appear here -->
+        <div class="row justify-content-center mt-4 questionBox" id="emptyDiv">
+        </div>
+        <div class="row justify-content-center mt-4">
+            <button id="button" type="button" class="btn btn-danger">Instructions</button>
+        </div>
+        <div class="row justify-content-center">
+            <iframe 
+                src="../HorrorGame/assets/audio/Midnight in the Graveyard.mp3" 
+                allow="autoplay" 
+                id="iframeAudio">
+            </iframe>
+        </div>
+
+        <script>
+
+
+        
+        </script>
+
+
+        <!-- Timer.js -->
+        <script src="assets/javascript/timer.js"></script>
+        <!-- APP.js -->
+        <script src="assets/javascript/app.js"></script>
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.8/js/mdb.min.js"></script>
+    </body>
+
+</html>

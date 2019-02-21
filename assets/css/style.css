@@ -1,0 +1,48 @@
+
+body {
+    height: 100%;
+}
+
+.main-background {
+    background-color: black;
+    background-image: url("../images/jigsaw.jpeg");
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.font {
+    font-family: 'Hanalei Fill';
+}
+
+.center {
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    padding: 0;
+}
+
+.questionBox {
+    text-align: center;
+    Width: 80%;
+    padding-top: 20px;
+    margin: auto;
+    color: whitesmoke;
+
+}
+
+#iframeAudio {
+    margin: auto;
+    border: none;
+    height: 100px;
+    width: 100%;
+} 
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
